@@ -1,10 +1,10 @@
 import random
 
 name = input('Please enter your name: ').capitalize()
-computer = input(f'Hello {name}, I am thinking of a number between 1 and 100... (Please press enter to continue)')
+computer = input(f'Hello {name}, I am thinking of a number between 1 and 75... (Please press enter to continue)')
 user_input = input('Do you want to try guessing the number... (Enter y/n)? ')
 
-computer_input = random.randint(70,100)
+computer_input = random.randint(70,72)
 
 def secret_num():
     while True:
